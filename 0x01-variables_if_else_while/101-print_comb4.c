@@ -20,7 +20,7 @@ if (n < m && m < o)
 putchar(n);
 putchar(m);
 putchar(o);
-{
+
 if (n != '7')
 {
 putchar(',');
