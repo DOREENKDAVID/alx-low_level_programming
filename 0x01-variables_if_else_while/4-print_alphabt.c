@@ -9,7 +9,7 @@ int main(void)
 {
 char d;
 
-for (d = 'a'; d <= 'z'; c++)
+for (d = 'a'; d <= 'z'; d++)
 
 /* print all except e and q*/
 {

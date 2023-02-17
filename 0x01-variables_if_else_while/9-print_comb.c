@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase
+ * main - Prints a series of numbers with commas
  *
- * Return: Always (Success)
+ * Return: Always (Success);
  */
 int main(void)
 {
-int  n;
+int n;
 
-for (n = '0'; d <= '9'; n++)
+for (n = '0'; n <= '9'; n++)
 
 {
 putchar(n);
