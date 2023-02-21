@@ -8,7 +8,7 @@
 
 void times_table(void);
 {
-	int i, j, n, x, y,;
+	int i, j, n, x, y;
 
 	for (i = 0; i < 10; ++i)
 	{
@@ -20,7 +20,7 @@ void times_table(void);
 			{
 				_putchar('0');
 			}
-			else if (n > 9>)
+			else if (n > 9)
 			{
 				x = n / 10 + '0';
 				y = n % 10 + '0';
