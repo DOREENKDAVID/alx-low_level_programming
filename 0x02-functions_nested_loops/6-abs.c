@@ -3,11 +3,11 @@
 /**
  * _abs - function that computes the absolute value of an integer.
  * Description: func computes the absolute vaule  iee - or +
- * @int: is the num witch the abs v will be checked
+ * @n: is the num witch the abs v will be checked
  * Return: n if + or n*-1 if negative
  */
 
-int _abs(int)
+int _abs(int n)
 {
 	if (n >= 0)
 	{

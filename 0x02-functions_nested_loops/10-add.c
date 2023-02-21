@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - function that adds two integers and returns the result.
+ * add - function that adds two integers and returns the result.
  * @int a: num i will be adding together
  * @int b: num to be added
  * Description: function that adds two integers and returns the result.

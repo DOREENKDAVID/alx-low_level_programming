@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - print_to_98 pint all natural numbers to 98
+ * print_to_98 - print all natural numbers to 98
  * @n: is the given number and we go to 98
  * Description: prints all natural nums from 0-98
  * Return: no return just print

@@ -8,7 +8,8 @@
  */
 void print_alphabet(void)
 {
-int i = 0
+int i = 0;
+
 while (i < 11)
 {
 
