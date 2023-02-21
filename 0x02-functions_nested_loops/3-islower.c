@@ -2,7 +2,7 @@
 
 /**
  * main - function that checks for lowercase character.
- * desctiption in main file
+ * desctiption: in main file
  * @c: c is an int and will be checked if lower
  * Description: it returns 1 if c is lowercase and returns 0 if otherwise
  * Return: 0 if otherwise

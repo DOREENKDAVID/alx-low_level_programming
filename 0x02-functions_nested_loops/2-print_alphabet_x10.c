@@ -2,7 +2,7 @@
 
 /**
  * main - prints the alphabet, in lowercase, followed by a new line.
- * Description uses the main header file
+ * Description: uses the main header file
  * that contains the _putchar function
  * Return: void.
  */
