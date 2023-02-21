@@ -6,7 +6,7 @@
  * that contains the _putchar function
  * Return: void.
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 int i = 0
 while (i < 11)

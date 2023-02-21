@@ -7,7 +7,7 @@
  * Return: minutes of the day
  */
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int i, j, h1, h2, m1, m2;
 

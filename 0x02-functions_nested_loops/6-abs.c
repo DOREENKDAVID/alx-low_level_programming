@@ -7,7 +7,7 @@
  * Return: n if + or n*-1 if negative
  */
 
-int _abs(int);
+int _abs(int)
 {
 	if (n >= 0)
 	{
