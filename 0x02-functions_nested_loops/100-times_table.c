@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void print_times_table - function that prints the n times table, 
+ * print_times_table - function that prints the n times table,
  * starting with 0
  * @n: the int to be checked
  * Return: nothing
@@ -9,7 +9,8 @@
 
 void print_times_table(int n)
 {
-	int digit, mult, result;
+int digit, mult, result;
+
 if (n <= 15 && n >= 0)
 {
 for (digit = 0; digit <= n; digit++)
