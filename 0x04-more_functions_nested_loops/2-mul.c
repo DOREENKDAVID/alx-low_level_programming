@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * int mul(int a, int b) - function that multipies two intergers
+ * mul - function that multipies two intergers
  * @a: int to be mul
  * @b: int to be mul
  * Return: Always 0.

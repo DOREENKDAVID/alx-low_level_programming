@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * void print_line(int n) - a function that draws a straight line in the terminal.
- *@n -ine to be checked
+ * print_line - a function that draws a straight line in the terminal.
+ *@n: line to be checked
  * Return: Always 0.
  */
 

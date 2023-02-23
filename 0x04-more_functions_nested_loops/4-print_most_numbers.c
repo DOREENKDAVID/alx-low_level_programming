@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * void print_most_numbers(void) - a function that prints the numbers,
+ * print_most_numbers - a function that prints the numbers,
  * from 0 to 9 and Do not print 2 and 4
- * @c: int to be checked
+ *
  *
  * Return: Always 0.
  */

@@ -3,7 +3,7 @@
 
 /**
  * _isupper - checks if int is a uppercase letter.
- * @c - is the int to be checked if upper
+ * @c: is the int to be checked if upper
  * Return: Always 0.
  */
 
