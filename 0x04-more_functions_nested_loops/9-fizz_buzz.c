@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - code prints 1-100 for n/3fizz &&n/5 buzz && n/3 and 5 fizzbuzz
