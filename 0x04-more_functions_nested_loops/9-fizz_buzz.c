@@ -4,7 +4,7 @@
 /**
  * main - code prints 1-100 for n/3fizz &&n/5 buzz && n/3 and 5 fizzbuzz
  *
- * Return: Always 0.
+ * Return: void
  */
 
 int main(void)
@@ -28,7 +28,7 @@ int main(void)
 		if (c < 100)
 		printf(" ");
 	}
-	printf("\n)");
+	printf("\n");
 
 return (0);
 }
