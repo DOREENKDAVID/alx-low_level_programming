@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * void print_number(int n) - a function that prints an integer.
- *
+ * print_number - print function that prints an integer.
+ * Description: a function that prints an integer
+ * @n: to be checked if int
  * Return: Always 0.
  */
 
@@ -43,5 +44,5 @@ void print_number(int n)
 	n %= div;
 	div /= 10;
 	}
-	}	
+	}
 }
