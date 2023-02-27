@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int(int *a, int *b) - function that swipes the values of two intrgers
+ * swap_int - function that swipes the values of two intrgers
  * @a: int to swap
  * @b: int to swap
  * Return: Always 0.
