@@ -3,7 +3,7 @@
 /**
  * _puts - a function that prints a sring followed by a new line.
  * @str: the string to be  printed
- * Return the string
+ * Return: void
  */
 
 void _puts(char *str)
