@@ -1,27 +1,19 @@
-#include "main.h"
 #include <stdio.h>
 
-
 /**
- * print_chessboard - prints the chessboard
- * @a: the board to print
+ * print_diagsums - prints the sum of the two diagonals of a square matrix
+ * @a: pointer to 2D array.
+ * @size: which diagonal to add.
  */
 
-void print_chessboard(char (*a)[8])
+void print_diagsums(int *a, int size)
 {
-	int i, j;
+	int i, sumx, sumy;
 
-	i = j = 0;
-	while (i < 8)
-	{
-		j = 0;
-		while (j < 8)
-		{
-			_putchar(a[i][j]);
-			j++;
-		}
-		_putchar('\n');
-		i++;
-	}
+	sumx = sumy = 0;
+	for (i = 0; i < (size * size); i += size + 1)
+		sumx += a[i];
+	for (i = size - 1; i < (size * size - 1); i += size - 1)
+		sumy += a[i];
+	printf("%d, %d\n", sumx, sumy);
 }
-
