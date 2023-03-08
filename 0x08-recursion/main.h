@@ -1,3 +1,6 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
 int _putchar(char);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
@@ -9,3 +12,5 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 char *wildcard(char *s3, char *s4);
+
+#endif
