@@ -15,7 +15,7 @@ int sqrt_check(int g, int c)
 		return (g);
 	if (g * g > c)
 		return (-1);
-		return (sqrt_check(g + 1, c));
+	return (sqrt_check(g + 1, c));
 }
 
 /**
