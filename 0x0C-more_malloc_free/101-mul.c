@@ -38,6 +38,7 @@ char *_memset(char *s, char b, unsigned int n)
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptr;
+	
 	if (nmemb == 0 || size == 0)
 	return (NULL);
 	ptr = malloc(nmemb * size);
@@ -116,7 +117,7 @@ void multiply(char *s1, char *s2)
 
 int main(int argc, char *argv[])
 {
-       	char *n1 = argv[1];
+	char *n1 = argv[1];
 	char *n2 = argv[2];
 
 	if (argc != 3 || check_number(n1) || check_number(n2))
