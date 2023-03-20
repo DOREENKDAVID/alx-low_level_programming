@@ -13,6 +13,7 @@ int nlen, olen, i;
 dog_t *doggy;
 
 nlen = olen = 0;
+
 while (name[nlen++])
 ;
 while (owner[olen++])
