@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
-#include <string.h>
 
 /**
  * print_listint - a func tha prints number of nodes
