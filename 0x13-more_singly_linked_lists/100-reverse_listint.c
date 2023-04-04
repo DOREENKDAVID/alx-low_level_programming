@@ -12,12 +12,12 @@ listint_t *previous, *next;
 
 if (head == NULL || *head == NULL)
 return (NULL);
-if ((*head)->next == NULL)
+if (*head->next == NULL)
 return (*head);
 previous = NULL;
 while (*head != NULL)
 {
-next = (*head)->next;
+next = *head->next;
 (*head)->next = previous;
 previous = *head;
 *head = next;
