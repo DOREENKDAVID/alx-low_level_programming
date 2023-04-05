@@ -3,7 +3,7 @@
 
 /**
  * print_listint - a func tha prints number of nodes
- * @h: head node
+ * @h:list to print
  * Return:number of nodes
  */
 
