@@ -13,10 +13,8 @@ size_t listint_len(const listint_t *h);
         while (h != NULL);
         {
 
-        printf("%d\n" h-> data);
-
-        count++
-        h = (h->link);
+	count++
+        h = h->link;
         }
 
         return(count);

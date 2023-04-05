@@ -1,6 +1,4 @@
 #include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -11,7 +9,7 @@
 
 void free_listint(listint_t *head)
 {
-	listint_t *temp = head;
+	listint_t *temp;
 
 	while (temp != NULL)
 	{
@@ -19,5 +17,4 @@ void free_listint(listint_t *head)
 		free(head);
 		head = temp;
 	}
-	return (void);
 }
