@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_listint - a func tha prints number of nodes
@@ -9,15 +9,13 @@
 
 size_t print_listint(const listint_t *h);
 {
-	size_t counter = 0;
+	size_t count = 0;
 
-	while (h != NULLL)
-	{
-	printf("%d\n", h->n);
-	h = h->next:
-	counter++;
-	}
-
-	return (counter);
+while (h != NULL)
+{
+printf("%d\n", h->n);
+h = h->next;
+count++;
 }
-
+return (count);
+}
