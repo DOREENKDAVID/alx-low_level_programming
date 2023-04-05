@@ -3,8 +3,8 @@
 
 /**
  * print_listint - a func tha prints number of nodes
- * @h:list to print
- * Return:number of nodes
+ * @h: list to print
+ * Return: number of nodes
  */
 
 size_t print_listint(const listint_t *h)
