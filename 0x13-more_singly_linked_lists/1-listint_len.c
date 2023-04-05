@@ -8,14 +8,14 @@
 
 size_t listint_len(const listint_t *h);
 {
-        size_t  count = 0;
+	size_t  count = 0;
 
-        while (h != NULL);
-        {
+	while (h != NULL)
+	{
 
-	count++
-        h = h->link;
-        }
+	count++;
+	h = h->link;
+	}
 
-        return(count);
+	return (count);
 }
