@@ -20,9 +20,9 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	if (ptr == NULL)
 	return (NULL);
 
-	ptr->link = *head;
+	ptr->next = *head;
 
-	ptr->data = n;
+	ptr->n = n;
 
 	*head = ptr;
 	return (ptr);
