@@ -10,7 +10,7 @@
  * Return: pointer to the indexed node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
-i{
+{
 	listint_t *ptr, *ptr2
 	listint_t *ptr2 = malloc(sizeof(listint_t));
 
@@ -21,26 +21,26 @@ i{
 		ptr = *head;
 	for (i = 0; i < idx - 1 && ptr != NULL; i++)
 	{
-		ptr = ptr->link;
+		ptr = ptr->next;
 	}
 	if (ptr == NULL)
 		return (NULL);
 	}
-	if (ptr2 ==NULL)
+	if (ptr2 == NULL)
 		return (NULL);
 
-	ptr2->data = n;
-	ptr2->link = NULL;
+	ptr2->n = n;
+	ptr2->next = NULL;
 
 	if (idx == 0)
 	{
-		ptr2->link = *head;
+		ptr2->next = *head;
 		*head = ptr2;
-		return(ptr2);
+		return (ptr2);
 
 	}
-	ptr2->link = ptr->link;
-	ptr->link = ptr2;
+	ptr2->next = ptr->next;
+	ptr->next = ptr2;
 
 	return (ptr2);
 }
