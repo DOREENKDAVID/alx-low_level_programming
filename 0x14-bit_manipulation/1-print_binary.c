@@ -9,9 +9,21 @@
 
 void print_binary(unsigned long int n)
 {
+	int j, count = 0;
+	unsigned long int num;
+
 	for (int i = 31; i >= 0; i--)
 	{
-		putchar((n & (1 << i)) ? '1' : '0');
+		num = n >> i;
+
+		if (num & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if (count)
+			_putchar('0');
 	}
-	_putchar('\n');
+	if (!count)
+		_putchar('0');
 }
