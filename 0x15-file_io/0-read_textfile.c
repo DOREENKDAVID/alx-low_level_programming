@@ -32,7 +32,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(fp);
 	return (0);
 	}
-	lenr = read(fd, buffer, letters);
+	lenr = read(fp, buffer, letters);
 	close(fp);
 
 	if (lenr == -1)
