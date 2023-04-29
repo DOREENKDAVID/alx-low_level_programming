@@ -25,7 +25,7 @@ void print_address(char *ptr)
 	{
 		start = 26;
 		printf("80");
-		for (n = start; n >= 22; n-)
+		for (n = start; n >= 22; n--)
 		{
 			if (ptr[n] > 0)
 				printf("%x", ptr[n]);
