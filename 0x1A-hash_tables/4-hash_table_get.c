@@ -5,7 +5,7 @@
  * @ht:the hash table you want to look into
  * @key:the key you are looking for
  *
- * Return: the value associated with the element, 
+ * Return: the value associated with the element,
  * or NULL if key couldn’t be found
  *
  */
