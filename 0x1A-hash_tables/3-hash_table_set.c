@@ -41,14 +41,14 @@ void switch_val(hash_node_t **ht, const char *key, const char *value)
 
 
 /**
- * add_node_beg - add new node at the beginning of the hash table list
+ * add_nd_beg - add new node at the beginning of the hash table list
  * @head: double pointer to entire hash table
  * @key: key to add string
  * @value: valueassociate with key
  *
  * Return: the address of the new element, NULL if failure
  */
-hash_node_t *add_node_beg(hash_node_t **head, const char *key, const char *value)
+hash_node_t *add_nd_beg(hash_node_t **head, const char *key, const char *value)
 {
 	hash_node_t *new;
 
@@ -79,7 +79,7 @@ hash_node_t *add_node_beg(hash_node_t **head, const char *key, const char *value
  * @ht: is the hash table you want to add or update the key/value to
  * @key: the key string
  * @value: is the value associated with the key.
- * Returns: 1 if it succeeded, 0 otherwise
+ * Return: 1 if it succeeded, 0 otherwise
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
@@ -98,7 +98,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		switch_val(&ht->array[index], key, value);
 		return (1);
 	}
-	add_node_beg(&ht->array[index], key, value);
+	add_nd_beg(&ht->array[index], key, value);
 	if (!&ht->array[index])
 		return (0);
 	return (1);
