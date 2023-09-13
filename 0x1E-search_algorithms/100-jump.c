@@ -17,13 +17,14 @@ int jump_search(int *array, size_t size, int value)
 	size_t left = 0;
 	size_t right = sqrt(size);
 	int valuefound = 0;
+
 	if (array == NULL)
 		return (-1);
 	while (array[right] < value && left < size)
 	{
 		left = right;
 		right = right + sqrt(size);
-	
+
 		/*determine right boundary*/
 		if (right > size - 1)
 			right = size - 1;
@@ -43,7 +44,7 @@ int jump_search(int *array, size_t size, int value)
 	{
 		printf("Value found between indexes [%lu] and [%lu]\n", left, right);
 		return (1);
-	
+
 	}
 	else
 	{
