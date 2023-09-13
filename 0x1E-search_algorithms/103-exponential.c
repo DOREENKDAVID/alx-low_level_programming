@@ -39,11 +39,10 @@ int binarysearch(int *array, size_t left, size_t right, int value)
 		printf("\n");
 		if (array[mid] == value)
 			return (mid);
-		else if (array[mid] < value)
+		if (array[mid] < value)
 			return (binarysearch(array, mid + 1, right, value));
-		else
-			if (array[mid] > value)
-				return(binarysearch(array, left, mid - 1, value));
+		if (array[mid] > value)
+			return (binarysearch(array, left, mid - 1, value));
 	}
 	return (-1);
 }
