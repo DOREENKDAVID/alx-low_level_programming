@@ -26,7 +26,7 @@ int recursive_binary(int *array, size_t left, size_t right, int value)
 
 		for  (i = left; i <= right; i++)
 			if (i == right)
-				printf("%d\n, ", array[i]);
+				printf("%d\n", array[i]);
 			else
 				printf("%d, ", array[i]);
 
