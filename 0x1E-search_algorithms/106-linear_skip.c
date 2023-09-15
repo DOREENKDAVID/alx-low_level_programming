@@ -37,6 +37,7 @@ skiplist_t *linear_skip(skiplist_t *list, int value)
 			break;
 		}
 		jump = jump->express; /*Move to the next express node*/
+	}
 		/*Print the range where the value might be found*/
 		printf("Value found between indexes [%lu] and [%lu]\n",
 		curr->index, jump->index);
@@ -51,3 +52,4 @@ skiplist_t *linear_skip(skiplist_t *list, int value)
 		curr = curr->next;/*else Move to the next node*/
 	}
 	return (NULL);/*If the value is not found, return NULL*/
+}
